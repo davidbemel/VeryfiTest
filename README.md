@@ -15,11 +15,12 @@ This Python project automates the extraction of structured data from invoices us
 
 ## Setup  
 1. **Prerequisites**:  
-   - Python 3.8+  
-   - Veryfi OCR API account in [Hub](https://hub.veryfi.com/signup/)
-
+   - Python 3.8+  (pip included)
+   - Veryfi OCR API account in (https://hub.veryfi.com/signup/)
+  
 2. **Installation**:  
 ```bash
+
 pip install veryfi pandas pytest python-dotenv
 pip install --upgrade veryfi
 pip install -r requirements.txt
