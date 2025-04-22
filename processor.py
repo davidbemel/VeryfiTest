@@ -33,10 +33,10 @@ class VeryfiProcessor:
     def __init__(self):
         """Inicializa con credenciales directas sin seguridad de entorno (version API actual)"""
         self.client = Client(
-            client_id="vrf4KgU5JZXnSsMCm3nyKneiTPV3v61Vfx4G3sF",
-            client_secret="HRmzRHjcPlRmjir62e1zg0aCSo4wPy3E57TFJvoiI68R9UVg0WFLEmKWVf23Dc8iLA2jS87XmH1BOTgVton8SH2Z0E48Pjls5bVHazYK7xHfzC0i1VVS1ob70mntur0m",
-            username="david.3pl",
-            api_key="8a1147415158b3b4bd039857e1fdcb11"
+            client_id="",
+            client_secret="",
+            username="",
+            api_key=""
         )
     # Procesa un documento de factura individual utilizando la API de Veryfi y devuelve los datos estructurados.
     def process_document(self, file_path: Path) -> Tuple[Optional[InvoiceData], Optional[Dict]]:
